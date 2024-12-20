@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(181, 243, 99);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50px;
+  width: 58%;
+  margin-left: 28%;
+  padding-left: 1%;
+  margin-top: 2%;
+  border-radius: 5px;
+  box-shadow: 4px 2px 13px rgba(0, 0, 0, 0.26);
+}
+  
+main{
+  display: flexbox;
+  background-color: rgb(134, 181, 243);
+  padding: 1px;
+  border-radius: 5px;
+  flex-grow: 1;
+  width: calc(43% - 1px);  
+  position: relative;
+  box-sizing: border-box;
+  margin-top: 1%;
+  margin-left: 5%;
+  box-shadow: 4px 2px 13px rgba(0, 0, 0, 0.26);
+}
+
+
+
+.title{
+margin-top: 2%;
+margin-bottom: 2%;
+text-align: left;
+position: relative;
+padding-left: 1%;
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+}
+
+
+  
+.item {
+  background-color: rgb(26, 8, 104);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 80px;
+  margin: 2px;  
+  border-radius: 5px;
+  color: white;
+  position: relative;
+  flex-wrap: wrap;
+  z-index:1;
+  box-shadow: 4px 2px 13px rgba(0, 0, 0, 0.26);
+}
+
+
+
+.colum {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 11px;
+  border-radius: 5px;
+  flex-grow: 1;
+  width: calc(75% - 11px);  
+  position: relative;
+  box-sizing: border-box;
+  margin-top: 18px;
+  gap: 16px;
+}
+
+
+  
+.sidebar {
+  background-color: rgb(202, 44, 16);
+  width: 18%; 
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  box-sizing: border-box;
+  margin-top: 2%;
+  flex-direction: column;
+  position: fixed; /* Para fixar  na tela */
+  top: 60px; 
+  right: 14%; 
+  height: 57vh; 
+  box-shadow: 4px 2px 13px rgba(0, 0, 0, 0.26);
+}  
+  
+.footer {
+  background-color: rgb(175, 111, 235);
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 58%;
+  justify-content: flex-start;
+  margin-left: 28%;
+  padding-left: 1%;
+  margin-top: 1%;
+  border-radius: 5px;
+  box-shadow: 4px 2px 18px rgba(0, 0, 0, 0.26);
+}
+
+.autora{
+ margin-left: 2%;
+ font-size: 14px;
+}
